@@ -2793,6 +2793,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
         position: relative;
         top: 0;
         cursor: pointer;
+        display: none;
       }
       .mobile_nav .select_page {
         display: none;
@@ -3570,12 +3571,12 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
         line-height: 0;
       }
       .mobile_menu_bar:before {
-        content: "a";
+        /* content: "a";
         font-size: 32px;
         position: relative;
         left: 0;
         top: 0;
-        cursor: pointer;
+        cursor: pointer; */
       }
       .et_pb_module .mobile_menu_bar:before {
         top: 2px;
@@ -4836,22 +4837,22 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
                   <li
                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-32"
                   >
-                    <a href="#about">about</a>
+                    <a href="#about" style="font-family: 'Schoolbell',sans-serif!important;">about</a>
                   </li>
                   <li
                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-34"
                   >
-                    <a href="#socials">socials</a>
+                    <a href="#socials" style="font-family: 'Schoolbell',sans-serif!important;">socials</a>
                   </li>
                   <li
                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-37"
                   >
-                    <a href="#contract">contract</a>
+                    <a href="#contract" style="font-family: 'Schoolbell',sans-serif!important;">contract</a>
                   </li>
                   <li
                     class="menu-item menu-item-type-custom menu-item-object-custom menu-item-33"
                   >
-                    <a href="#Retarnomics">Tokenomics</a>
+                    <a href="#Retarnomics" style="font-family: 'Schoolbell',sans-serif!important;">Tokenomics</a>
                   </li>
                 </ul>
               </nav>
@@ -4932,7 +4933,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
                       class="et_pb_section et_pb_section_1 et_pb_with_background et_section_regular"
                     >
                      
-                      <div class="social_icon" style="display: flex;align-items: center;justify-content:center ;gap:40px">
+                      <div class="social_icon" style="display: flex;align-items: center;justify-content:center ;gap:30px" id="socials">
                         <a href="ttlink" target="_blank" rel="noopener noreferrer">
                           <img src="/images/twitter.png" style="width:80px" alt="">
                         </a>
